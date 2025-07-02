@@ -8,7 +8,7 @@ sudo apt install curl -y
 curl -fsSL https://ollama.com/install.sh | sh
 ollama run mistral
 
-**Simple Chat with Ollama**
+Simple Chat with Ollama
 
 1. Python backend using FastAPI
 2. Frontend using Index and javascript
