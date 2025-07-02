@@ -1,0 +1,22 @@
+PRE-REQUISITE
+1. Need to install Ubuntu WSL as this application can only be run inisde WSL
+2. Download Ollama through WSL
+
+After download Ubuntu WSL and follow these steps below, you can now run Mistral model inside the terminal;
+sudo apt update
+sudo apt install curl -y
+curl -fsSL https://ollama.com/install.sh | sh
+ollama run mistral
+
+**Simple Chat with Ollama**
+
+1. Python backend using FastAPI
+2. Frontend using Index and javascript
+3. Connect to Ollama using API
+
+To run this application, make sure to clone the virtual environment inside WSL;
+1. Open Ubuntu application
+2. cd to the directory of the folder inside 
+3. uvicorn main:app --reload --port 8000
+
+
